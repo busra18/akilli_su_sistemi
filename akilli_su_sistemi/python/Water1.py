@@ -7,7 +7,7 @@ import csv  # CSV dosyası kaydı için
 import time  # Bekleme işlemleri için
 
 # --- KULLANICI AYARLARI ---
-PORT = "COM3"  # Arduino'nun bağlı olduğu port (Windows: COM3, Linux: /dev/ttyUSB0)
+PORT = "COM6"  # Arduino'nun bağlı olduğu port (Windows: COM3, Linux: /dev/ttyUSB0)
 BAUD = 9600  # Arduino ile aynı baud rate kullanılmalı
 CSV_FILE = "su_tuketim.csv"  # Verilerin kaydedileceği dosya adı
 
